@@ -48,7 +48,7 @@ io.on('connection',socket=>{
         
     })
 })
-const PORT = 3000 || process.env.PORT;
+const PORT = process.env.PORT;
 server.listen(PORT, function(){
     console.log(`Server is running on port ${PORT} `);
 })
